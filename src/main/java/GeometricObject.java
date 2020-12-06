@@ -16,18 +16,17 @@ public abstract class GeometricObject {
     this.filled = filled;
   }
 
-  /**Getter method for color*/
+  
   public String getColor() {
     return color;
   }
 
-  /**Setter method for color*/
+  
   public void setColor(String color) {
     this.color = color;
   }
 
-  /**Getter method for filled. Since filled is boolean,
-     so, the get method name is isFilled*/
+  
   public boolean isFilled() {
     return filled;
   }
